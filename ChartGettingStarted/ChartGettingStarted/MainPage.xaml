@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ChartGettingStarted"
+             xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+             x:Class="ChartGettingStarted.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:SalesViewModel/>
+    </ContentPage.BindingContext>
+
+    <chart:SfChart>
+
+        <chart:SfChart.Title>
+            <chart:ChartTitle Text="Target vs Sale"/>
+        </chart:SfChart.Title>
+
+        <chart:SfChart.Legend>
+            <chart:ChartLegend/>
+        </chart:SfChart.Legend>
+        
+        <chart:SfChart.PrimaryAxis>
+            <chart:CategoryAxis>
+                <chart:CategoryAxis.Title>
+                    <chart:ChartAxisTitle Text="Year"/>
+                </chart:CategoryAxis.Title>
+            </chart:CategoryAxis>
+        </chart:SfChart.PrimaryAxis>
+
+        <chart:SfChart.SecondaryAxis>
+            <chart:NumericalAxis>
+                <chart:NumericalAxis.LabelStyle>
+                    <chart:ChartAxisLabelStyle LabelFormat="$###M"/>
+                </chart:NumericalAxis.LabelStyle>
+            </chart:NumericalAxis>
+        </chart:SfChart.SecondaryAxis>
+
+        <chart:ColumnSeries ItemsSource="{Binding SalesData}"
+                            XBindingPath="Year"
+                            YBindingPath="Target"
+                            Label="Target"/>
+
+        <chart:ColumnSeries ItemsSource="{Binding SalesData}"
+                            XBindingPath="Year"
+                            YBindingPath="Sale"
+                            Label="Sale"/>
+
+    </chart:SfChart>
+
+</ContentPage>
