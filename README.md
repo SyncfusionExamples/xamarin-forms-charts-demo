@@ -20,3 +20,29 @@ You can refer to our [Xamarin Charts](https://www.syncfusion.com/xamarin-ui-cont
 ## See more
 
 * [How to upgrade to newer versions of NuGet Package](https://support.syncfusion.com/kb/article/6374/upgrading-to-newer-versions-of-nuget-package?_gl=1*tasw66*_ga*MzIyMTA2OTEuMTY4NjAzNTEwMg..*_ga_WC4JKKPHH0*MTY5MjM0MTI1My4yMzguMS4xNjkyMzQyMTA3LjI3LjAuMA..*_ga_41J4HFMX1J*MTY5MjM0MTI1My40OC4xLjE2OTIzNDIxMDcuMC4wLjA.)
+
+## Community and User Support:
+Highlight the active Syncfusion community and forums where developers can seek help, share their experiences, and learn from others.
+
+Mention any support resources like documentation, tutorials, and code samples.
+
+## Version Updates:
+Keep users informed about the latest version updates, new features, and bug fixes. Encourage them to regularly update their library for the best experience and security.
+
+## Sample Projects:
+Share additional sample projects showcasing different types of charts, such as line charts, pie charts, and radar charts, to help users understand the library's versatility.
+
+Provide step-by-step guides on how to create these charts with code examples.
+
+## Additional help resources
+The [Knowledge Base section]( https://support.syncfusion.com/kb)
+ contains responses to some of the most common questions that other customers had asked in the past. You can search for topics that are not covered in the user guide.
+
+Similar to the Knowledge Base, the Forum section also contains responses to questions of other customers asked in the past.
+
+## Support and feedback
+If you are unable to find the information that you are looking for in the self-help resources mentioned above then you contact us by creating a [support ticket.](https://support.syncfusion.com/)
+
+Don’t see what you need? Please request it in [our feedback portal.](https://www.syncfusion.com/feedback/xamarin-forms)
+
+
